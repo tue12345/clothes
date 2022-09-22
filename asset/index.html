@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.2.0-web/css/all.min.css">
+    <title>The Simpt</title>
+</head>
+<body>
+    <div class="app">
+        <div class="grid wide">
+            <nav class="store-siderbar ">
+                <div class="store-siderbar__heading">
+                    <h3 class="a store-siderbar__heading-text">LOGO</h3>
+                </div>
+
+                <div class="store-siderbar__category-clothings">
+                    <a href="" class="store-siderbar__clothing">
+                        Shirts
+                    </a>
+                    <a href="" class="store-siderbar__clothing">
+                        Dresses
+                    </a>
+                    <a href="#" onclick="showjeans()" class="store-siderbar__clothing store-siderbar__clothing--active js-openjeans">
+                        Jeans
+                        <i class="fa-solid fa-caret-down"></i>
+                    </a>
+                    <div class="store-siderbar__list-jeans js-jeans">
+                        <a href="#" class="store-siderbar__item-jean store-siderbar__item-jean--active">
+                            <i style="margin-right: 16px;" class="fa-solid fa-caret-right"></i>
+                            Skinny
+                        </a>
+                        <a href="#" class="store-siderbar__item-jean w3-show">
+                            Relaxed
+                        </a>
+                        <a href="#" class="store-siderbar__item-jean w3-show">
+                            Bootcut
+                        </a>
+                        <a href="#" class="store-siderbar__item-jean w3-show">
+                            Straight
+                        </a>
+                    </div>
+                    <a href="" class="store-siderbar__clothing">
+                        Jackets
+                    </a>
+                    <a href="" class="store-siderbar__clothing">
+                        Gymwear
+                    </a>
+                    <a href="" class="store-siderbar__clothing">
+                        Blazers
+                    </a>
+                    <a href="" class="store-siderbar__clothing">
+                        Shoes
+                    </a>
+                </div>
+
+                <a href="" class="store-siderbar__footer-item">
+                    Contact
+                </a>
+                <a href="javascript://" onclick="document.querySelector('.newsletter-overlay').style = 'display:block'" class="store-siderbar__footer-item">
+                    Newsletter
+                </a>
+                <a href="" class="store-siderbar__footer-item">
+                    Subscribe
+                </a>
+        
+            </nav>
+            <div class="store-main">
+                <div class="header-main">
+                    <p class="header-main__left">Jeans</p>
+                    <p class="header-main__right">
+                        <i class="header__cart fa-solid fa-cart-shopping"></i>
+                        <i class="header__search fa-solid fa-magnifying-glass"></i>
+                    </p>
+                </div>
+                <div class="container">
+                    <div class="container-blockimg">
+                        <img class="container-blockimg__img" src="https://www.w3schools.com/w3images/jeans.jpg" alt="">
+                        <div class="container-blockimg__text">
+                            <h1 class="container-text1">New arrivals</h1>
+                            <h1 class="container-text2">COLLECTION 2016</h1>
+                            <p>
+                                <a href="#" class="container-text3">SHOP NOW</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Items-->
+                    <div class="container-textgrey">
+                        <p class="textgrey1">8 items</p>
+                    </div>
+                    <div class="container-list">     
+                        <div class="row">                                       
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans1.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>           
+                            </div>
+                            <div class="container-item col c-3">
+                                <div class="container-item__contentup">
+                                    <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans3.jpg" alt="">
+                                    <span class="container-item__new">New</span>
+                                    <div class="container-item__buy">
+                                        <button class="btn button-buynow">Buy now
+                                            <i class=" fa-solid fa-cart-shopping"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div> 
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans2.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div> 
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans4.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div> 
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans2.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div> 
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans3.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div>
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans4.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div>
+                            <div class="container-item col c-3">
+                                <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans1.jpg" alt="">
+                                <p class="container-item__inf">Ripped Skinny Jeans
+                                    <br>
+                                    <b>$24.99</b>
+                                </p>
+                            </div>    
+                        </div>                    
+                    </div>
+                    <!--subscribe section-->
+                    <div class="container-subscribe">
+                        <h1 class="container-subscribe__text">Subscribe</h1>
+                        <p class="container-subscribe__text1">To get special offers and VIP treatment:</p>
+                        <p class="subscribe__input">
+                            <input type="text" placeholder="Enter e-mail" class="input-email">
+                        </p>
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <div class="footer__list row no-gutters">
+                        <div class="footer__item col c-4">
+                            <h1 class="footer__item-contact">Contact</h1>
+                            <p class="footer__item-question">Questions? Go ahead.</p>
+                            <form>
+                                <p>
+                                    <input class="footer__item-input" type="text" placeholder="Name">
+                                </p>
+                                <p>
+                                    <input class="footer__item-input" type="text" placeholder="Email">
+                                </p>
+                                <p>
+                                    <input class="footer__item-input" type="text" placeholder="Subject">
+                                </p>
+                                <p>
+                                    <input class="footer__item-input" type="text" placeholder="Message">
+                                </p>
+                            </form>
+                            <button class="btn btn-send">Send</button>
+                        </div>
+                        <div class="footer__item col c-4">
+                            <h1 class="footer__item-contact">About</h1>
+                            <p class="footer__item-link">
+                                <a href="#" class="footer__item-link-a">About us</a>
+                            </p>
+                            <p class="footer__item-link">
+                                <a href="#" class="footer__item-link-a">We're hiring</a>
+                            </p>
+                            <p class="footer__item-link">                                    
+                                <a href="#" class="footer__item-link-a">Support</a>
+                            </p>
+                            <p class="footer__item-link">    
+                                <a href="#" class="footer__item-link-a">Find store</a>
+                            </p>
+                            <p class="footer__item-link">    
+                                <a href="#" class="footer__item-link-a">Shipment</a>
+                            </p>
+                            <p class="footer__item-link">                                    
+                                <a href="#" class="footer__item-link-a">Payment</a>
+                            </p>
+                            <p class="footer__item-link">    
+                                <a href="#" class="footer__item-link-a">Gift card</a>
+                            </p>
+                            <p class="footer__item-link">    
+                                <a href="#" class="footer__item-link-a">Return</a>
+                            </p>
+                            <p class="footer__item-link">    
+                                <a href="#" class="footer__item-link-a">Help</a>
+                            </p>
+                            
+                        </div>
+                        <div class="footer__item col c-4">
+                            <h1 class="footer__item-contact">Store</h1>
+                            <p class="footer__item-inf">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Company Name
+                            </p>
+                            <p class="footer__item-inf">
+                                <i class="fa-solid fa-phone"></i>
+                                 0044123123
+                            </p>
+                            <p class="footer__item-inf">
+                                <i class="fa-solid fa-envelope"></i>
+                                 ex@mail.com
+                            </p>
+                            <h1 class="footer__item-contact">We accept</h1>
+                            <p class="footer__item-inf">
+                                <i class="fa-brands fa-cc-amex"></i>
+                                 Amex
+                            </p>
+                            <p class="footer__item-inf">
+                                <i class="fa-solid fa-credit-card"></i>
+                                 Credit Card
+                            </p>
+                            <br>
+                            <i class="footer-icon-app fa-brands fa-facebook"></i>
+                            <i class="footer-icon-app fa-brands fa-instagram"></i>
+                            <i class="footer-icon-app fa-brands fa-snapchat"></i>
+                            <i class="footer-icon-app fa-brands fa-pinterest"></i>
+                            <i class="footer-icon-app fa-brands fa-twitter"></i>
+                            <i class="footer-icon-app fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </footer>
+                <div class="bottom-web">
+                    Powered by
+                    <a href="#" class="bottom-web-link">w3.css</a>
+                </div>
+                <!--newsletter-->
+                <div class="newsletter-overlay">
+                    <div class="newsletter__container">
+                        <div class="newsletter__content">
+                            <i onclick="closed()" class="icon-xmark fa-solid fa-xmark"></i>
+                            <h1 class="newsletter__heading">NEWSLETTER</h1>                            
+                            <p class="newsletter__text-bot">Join our mailing list to receive updates on new arrivals and special offers.</p>
+                            <p class="subscribe__input">
+                                <input type="text" placeholder="Enter e-mail" class="input-email">
+                            </p>
+                            <p class="btn-subcribe-newlet">
+                            <button onclick="closed()" class="btn">Subscribe</button>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <script>
+                /*showjeans*/
+                function showjeans(){
+                    const x = document.querySelector('.js-jeans')
+                    if (x.className.indexOf("w3-show") == -1) {
+                        x.className += " w3-show";
+                        x.style = 'display:none'
+                        } else {
+                        x.className = x.className.replace(" w3-show", "");
+                        x.style = 'display:block'
+                    }
+                } 
+                /*open-closed newsletter*/
+                function closed(){
+                    document.querySelector('.newsletter-overlay').style = 'display:none'   
+                }
+            </script>
+    </div>
+</body>
+</html>

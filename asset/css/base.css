@@ -1,0 +1,40 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+/*main*/
+html{
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+}
+
+html a{
+    font-family: "Roboto",sans-serif;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+
+/**/
+
+.btn{
+    min-width: 110px;
+    min-height: 40px;
+    border: none;
+    background-color:#f44336;
+    color: var(--white-color);
+    margin-bottom: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover{
+    background-color: #ccc;
+    color: var(--black-color);
+}

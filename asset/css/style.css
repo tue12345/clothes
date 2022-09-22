@@ -1,0 +1,369 @@
+
+/*store-siderbar*/
+.store-siderbar{
+    width: 250px;
+    height: auto;
+    position: fixed;
+    overflow-y:scroll;
+}
+.store-siderbar::-webkit-scrollbar-thumb{
+    display: block;
+    height: 50px;
+    width: 50px;
+}
+.store-siderbar__heading{
+    padding: 16px; 
+}
+
+
+.store-siderbar__heading-text{
+    font-size: 2.4rem;
+    color:var(--black-color);
+    font-weight: bolder;
+    letter-spacing: 0.4rem;
+    line-height: 2.4rem;
+    margin: 10px 0;  
+}
+
+.store-siderbar__category-clothings{
+    padding: 64px 0;
+    font-weight: bolder; 
+}
+
+.store-siderbar__clothing:hover{
+    color:var(--black-color);
+    background-color: #ccc;
+}
+
+.store-siderbar__clothing{
+    text-decoration: none;
+    color: #757575;
+    font-size: 1.8rem;
+    display: block;
+    padding: 16px 16px;
+    line-height: 1.8rem;
+}
+
+.store-siderbar__clothing--active{
+    color:var(--black-color);
+}
+
+.store-siderbar__list-jeans{
+    padding: 12px 24px;
+}
+
+.store-siderbar__item-jean:hover{
+    background-color: #ccc;
+    color: var(--black-color);
+}
+
+
+.store-siderbar__item-jean{
+    text-decoration: none;
+    color: #757575;
+    font-size: 1.5rem;
+    display: block;
+    padding: 16px 16px;
+    line-height: 1.5rem;
+}
+
+.store-siderbar__item-jean--active{
+    color:var(--black-color);
+    background-color: #f1f1f1;
+}
+
+.store-siderbar__footer-item:hover{
+    background-color: #ccc;
+}
+
+.store-siderbar__footer-item{
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: 1.5rem;
+    display: block; 
+    padding: 16px 16px;
+    line-height: 1.5rem;
+}
+/*store-main*/
+
+.store-main{
+    margin-left: 250px;
+}
+
+/*header-main*/
+.header-main{
+    display: flex;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+
+.header-main__left{
+    font-size: 2.4rem;
+    margin: 26px 0;
+}
+
+.header-main__right{
+    font-size: 2rem;
+    margin: 26px;  
+}
+
+.header__cart{
+    margin-right: 16px;
+}
+
+/*container-blockimg*/
+
+.container-blockimg{
+    padding: 0 16px;
+    position: relative;
+}
+
+.container-blockimg__img{
+    width: 100%;
+}
+
+.container-blockimg__text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 24px 48px;
+}
+
+.container-text1{
+    color: var(--white-color);
+    font-size: 6.4rem;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.container-text2{
+    color: var(--white-color);
+    font-size: 3.6rem;
+    margin: 20px 0;
+    font-weight: 400;
+}
+
+.container-blockimg__text p{
+    line-height: 4.8rem;
+}
+.container-text3:hover{
+    color: var(--black-color);
+    background-color: #ccc;
+}
+.container-text3{
+    font-size: 1.8rem;
+    color: var(--white-color);
+    text-decoration: none;
+    background-color: var(--black-color);
+    padding: 12px 24px;
+    font-family: "Montserrat", sans-serif;
+}
+/*container-items*/
+.container-textgrey{
+    padding: 0 16px;
+}
+
+.textgrey1{
+    color: #757575;
+    font-size: 1.5rem;
+}
+
+.container-list{
+    padding: 0 16px;
+    filter: grayscale(75%);
+}
+
+.container-item__contentup{
+    position: relative;
+}
+
+.container-item__contentup:hover .button-buynow{
+    display: block;
+}
+.container-item__img{
+    width: 100%;
+}
+
+.container-item__inf{
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.container-item__new{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background-color: black;
+    color: var(--white-color);
+    font-size: 1.5rem;
+    padding: 0 8px;
+}
+
+.container-item__buy{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.button-buynow{
+    background-color:black;
+    display: none;
+}
+/*subscribe-section*/
+
+.container-subscribe{
+    background-color: var(--black-color);
+    width: 100%;
+    padding: 32px 16px;
+}
+
+.container-subscribe__text{
+    color: var(--white-color);
+    font-size: 3.6rem;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.container-subscribe__text1{
+    color: var(--white-color);
+    font-size: 1.5rem;
+
+}
+
+.subscribe__input{
+    margin: 15px 0;
+}
+
+.input-email{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+/*footer*/
+.footer{
+    background-color: #f1f1f1;
+    padding: 64px 0;
+}
+
+.footer__list {
+    width: 100%;
+    padding: 0 12px;
+}
+
+.footer__item{
+    text-align: center;
+}
+
+.footer__item:last-child{
+    text-align: left;
+}
+
+.footer__item-contact{
+    font-size: 2rem;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+.footer__item-question{
+    font-size: 1.2rem;
+    margin: 12px 0;
+}
+
+.footer__item-input{
+    width: 100%;
+    padding:8px;
+    border: 1px solid #ccc;
+}
+
+.btn-send{
+    width: 100%;
+    background-color: var(--black-color);
+}
+
+.footer__item-link{
+    margin: 15px 0;
+}
+
+.footer__item-link-a{
+    color:var(--black-color);
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.footer__item-inf{
+    margin: 15px 0;
+    font-size: 1.2rem;
+}
+
+.footer-icon-app:hover{
+    opacity: 0.6;
+}
+
+.footer-icon-app{
+    font-size: 1.8rem;
+}
+/*bottom-web*/
+.bottom-web{
+    width: 100%;
+    background-color: var(--black-color);
+    padding: 24px 0;
+    text-align: center;
+    color: var(--white-color);
+    font-size: 1.5rem;
+}
+
+.bottom-web-link{
+    color: var(--white-color);
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*newletters*/
+.newsletter-overlay{
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding-top:100px ;
+    display: none;
+}
+
+.newsletter__container{
+    width: 900px;
+    margin: auto;
+    padding: 32px;
+    background: var(--white-color);
+}
+
+.newsletter__content{
+    padding: 0 16px;
+}
+
+.icon-xmark:hover{
+    background-color: #ccc;
+}
+.icon-xmark{
+    float: right;
+    padding:2px 16px;
+    font-size: 3.6rem;
+}
+
+.newsletter__heading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.newsletter__text-bot{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.btn-subcribe-newlet{
+    text-align: center ;
+}
