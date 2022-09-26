@@ -2,15 +2,11 @@
 /*store-siderbar*/
 .store-siderbar{
     width: 250px;
-    height: auto;
+    height: 100%;
     position: fixed;
-    overflow-y:scroll;
+    overflow-y:auto;
 }
-.store-siderbar::-webkit-scrollbar-thumb{
-    display: block;
-    height: 50px;
-    width: 50px;
-}
+
 .store-siderbar__heading{
     padding: 16px; 
 }
@@ -23,6 +19,21 @@
     letter-spacing: 0.4rem;
     line-height: 2.4rem;
     margin: 10px 0;  
+}
+
+.store-siderbar__heading a{
+    display: none;
+}
+.icon-xmark1:hover{
+    background-color: #ccc;
+}
+.icon-xmark1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 1.5rem;
+    padding: 8px 16px;
+    color: var(--black-color);
 }
 
 .store-siderbar__category-clothings{
@@ -84,6 +95,30 @@
     padding: 16px 16px;
     line-height: 1.5rem;
 }
+/*header-tablet*/
+.header-tablet{
+    justify-content: space-between;
+    background-color: var(--black-color);
+    display: none;
+}
+.header-tablet__logo{
+    font-size: 2.4rem;
+    color: var(--white-color);
+    letter-spacing: 4px;
+    padding: 24px 16px;
+}
+
+.header-tablet__category:hover{
+    background-color: #ccc;
+}
+.header-tablet__category i{
+    font-size: 2.4rem;
+    color: var(--white-color);
+    padding: 24px 16px;
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+}
 /*store-main*/
 
 .store-main{
@@ -104,7 +139,9 @@
 
 .header-main__right{
     font-size: 2rem;
-    margin: 26px;  
+    margin: 26px 0;
+    display: flex;
+    align-items: center;  
 }
 
 .header__cart{

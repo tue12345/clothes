@@ -17,17 +17,20 @@
         <div class="grid wide">
             <nav class="store-siderbar ">
                 <div class="store-siderbar__heading">
+                    <a href="javascirpt://" onclick="closedBar()">                    
+                        <i class="icon-xmark1 fa-solid fa-xmark"></i>
+                    </a>
                     <h3 class="a store-siderbar__heading-text">LOGO</h3>
                 </div>
 
                 <div class="store-siderbar__category-clothings">
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Shirts
                     </a>
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Dresses
                     </a>
-                    <a href="#" onclick="showjeans()" class="store-siderbar__clothing store-siderbar__clothing--active js-openjeans">
+                    <a href="javascirpt://" onclick="showjeans()" class="store-siderbar__clothing store-siderbar__clothing--active js-openjeans">
                         Jeans
                         <i class="fa-solid fa-caret-down"></i>
                     </a>
@@ -46,31 +49,40 @@
                             Straight
                         </a>
                     </div>
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Jackets
                     </a>
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Gymwear
                     </a>
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Blazers
                     </a>
-                    <a href="" class="store-siderbar__clothing">
+                    <a href="#" class="store-siderbar__clothing">
                         Shoes
                     </a>
                 </div>
 
-                <a href="" class="store-siderbar__footer-item">
+                <a href="#" class="store-siderbar__footer-item">
                     Contact
                 </a>
                 <a href="javascript://" onclick="document.querySelector('.newsletter-overlay').style = 'display:block'" class="store-siderbar__footer-item">
                     Newsletter
                 </a>
-                <a href="" class="store-siderbar__footer-item">
+                <a href="#" class="store-siderbar__footer-item">
                     Subscribe
                 </a>
-        
+                
             </nav>
+            <!--Tablet-screen 740px->1023px -->
+            <div class="header-tablet">
+                <div class="header-tablet__logo">LOGO</div>
+                <a href="javascript://" onclick="openBar()" class="header-tablet__category">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+            <div onclick="closedBar()" class="overlay-smallscreen"></div>
+            <!--store-main-->
             <div class="store-main">
                 <div class="header-main">
                     <p class="header-main__left">Jeans</p>
@@ -86,24 +98,24 @@
                             <h1 class="container-text1">New arrivals</h1>
                             <h1 class="container-text2">COLLECTION 2016</h1>
                             <p>
-                                <a href="#" class="container-text3">SHOP NOW</a>
+                                <a href="#jeans" class="container-text3">SHOP NOW</a>
                             </p>
                         </div>
                     </div>
                     <!--Items-->
-                    <div class="container-textgrey">
+                    <div id="jeans" class="container-textgrey">
                         <p class="textgrey1">8 items</p>
                     </div>
                     <div class="container-list">     
                         <div class="row">                                       
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6 ">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans1.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>           
                             </div>
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <div class="container-item__contentup">
                                     <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans3.jpg" alt="">
                                     <span class="container-item__new">New</span>
@@ -118,42 +130,42 @@
                                     <b>$24.99</b>
                                 </p>
                             </div> 
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans2.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>
                             </div> 
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans4.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>
                             </div> 
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans2.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>
                             </div> 
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans3.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>
                             </div>
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans4.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
                                     <b>$24.99</b>
                                 </p>
                             </div>
-                            <div class="container-item col c-3">
+                            <div class="container-item col c-3 l-6 m-6">
                                 <img class="container-item__img" src="https://www.w3schools.com/w3images/jeans1.jpg" alt="">
                                 <p class="container-item__inf">Ripped Skinny Jeans
                                     <br>
@@ -177,21 +189,21 @@
                         <div class="footer__item col c-4">
                             <h1 class="footer__item-contact">Contact</h1>
                             <p class="footer__item-question">Questions? Go ahead.</p>
-                            <form>
+                            <form action="">
                                 <p>
-                                    <input class="footer__item-input" type="text" placeholder="Name">
+                                    <input class="footer__item-input" name="Name" type="text" placeholder="Name" required>
                                 </p>
                                 <p>
-                                    <input class="footer__item-input" type="text" placeholder="Email">
+                                    <input class="footer__item-input" name="Email" type="text" placeholder="Email" required>
                                 </p>
                                 <p>
-                                    <input class="footer__item-input" type="text" placeholder="Subject">
+                                    <input class="footer__item-input" name="Subject" type="text" placeholder="Subject" required>
                                 </p>
                                 <p>
-                                    <input class="footer__item-input" type="text" placeholder="Message">
-                                </p>
+                                    <input class="footer__item-input" name="Message" type="text" placeholder="Message" required>
+                                </p> 
+                                <button type="submit" class="btn btn-send" value="Send">Send</button>
                             </form>
-                            <button class="btn btn-send">Send</button>
                         </div>
                         <div class="footer__item col c-4">
                             <h1 class="footer__item-contact">About</h1>
@@ -295,6 +307,16 @@
                 function closed(){
                     document.querySelector('.newsletter-overlay').style = 'display:none'   
                 }
+                /*open-closed bar for tablet,mobile*/
+                function openBar(){
+                    document.querySelector('.store-siderbar').style = 'display:block'
+                    document.querySelector('.overlay-smallscreen').style = 'display:block'       
+                }
+                function closedBar(){
+                    document.querySelector('.store-siderbar').style = 'display:none'
+                    document.querySelector('.overlay-smallscreen').style = 'display:none'
+                }
+
             </script>
     </div>
 </body>

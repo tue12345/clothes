@@ -32,9 +32,11 @@ body{
     color: var(--white-color);
     margin-bottom: 16px;
     font-family: "Montserrat", sans-serif;
+    cursor: pointer;
 }
 
 .btn:hover{
     background-color: #ccc;
     color: var(--black-color);
 }
+
